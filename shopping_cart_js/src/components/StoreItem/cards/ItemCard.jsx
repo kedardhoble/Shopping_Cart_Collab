@@ -1,10 +1,28 @@
-import React, { useState } from 'react'
-import { Button, Card } from "react-bootstrap"
-import { formatCurrency } from "../../../utility/formatCurrency.jsx"
-// import banana from "../../../assets/images/banana.jpg"
-const ItemCard = ({ data, quantity, setQuantity }) => {
-    const { name, price, imgUrl } = data
-    const [itemQuantity,setItemQuantity] =useState(0);
+import React, { useEffect, useState } from 'react';
+import { Button, Card } from "react-bootstrap";
+import { formatCurrency } from "../../../utility/formatCurrency.jsx";
+import { useDispatch, useSelector } from 'react-redux';
+import { addItemToCart, removeItemFromCart } from '../../../redux/slice/cartSlice.js';
+
+const ItemCard = ({ data }) => {
+    const { id, name, price, imgUrl } = data;
+    const cartData = useSelector((state) => state.cartData.items);
+    const [added, setAdded] = useState(false);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        // Check if the item is already in the cart
+        const isAdded = cartData.some((item) => item.id === id);
+        setAdded(isAdded);
+    }, [cartData, id]);
+
+    const addItem = (item) => {
+        dispatch(addItemToCart(item));
+    };
+
+    const removeItem = (itemId) => {
+        dispatch(removeItemFromCart(itemId));
+    };
 
     return (
         <Card className="h-100">
@@ -19,29 +37,21 @@ const ItemCard = ({ data, quantity, setQuantity }) => {
                 <Card.Title className="d-flex justify-content-space-between align-items-baseline mb-4">
                     <span className="fs-2">{name}</span>
                     <span className="ms-2 text-muted">{formatCurrency(price)}</span>
-
                 </Card.Title>
                 <div className="mt-auto">
-                    {itemQuantity === 0 ?
-                        <Button className="w-100" onClick={() => { setItemQuantity(quantity => quantity + 1) }}>+ Add To Cart</Button> :
-                        (<div className="d-flex align-items-center flex-column" style={{ gap: ".5rem" }}>
-                            <div className="d-flex align-items-center justify-content" style={{ gap: ".5rem" }}
-                            >
-                                <Button onClick={() => { setItemQuantity(quantity => quantity - 1) }}>-</Button>
-                                <div>
-                                    <span className="fs-3">{itemQuantity}</span>in cart
-                                </div>
-                                <Button onClick={() => { setItemQuantity(quantity => quantity + 1) }}>+</Button>
-                            </div>
-                            <Button onClick={() => { setItemQuantity(0) }} variant="danger" size="sm">
-                                Remove
-                            </Button>
-                        </div>
-                        )}
+                    {added ? (
+                        <Button className="btn btn-danger w-100" onClick={() => removeItem(id)}>
+                            Remove
+                        </Button>
+                    ) : (
+                        <Button className="w-100" onClick={() => addItem(data)}>
+                            + Add To Cart
+                        </Button>
+                    )}
                 </div>
             </Card.Body>
         </Card>
-    )
-}
+    );
+};
 
-export default ItemCard
+export default ItemCard;

@@ -1,26 +1,42 @@
 [
-    {
-      "id": 1,
-      "name": "Book",
-      "price": 200,
-      "imgUrl": "src/images/book.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Computer",
-      "price": 51999,
-      "imgUrl": "src/images/computer.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Banana",
-      "price": 100.05,
-      "imgUrl": "src/images/banana.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Car",
-      "price": 1400000,
-      "imgUrl": "src/images/car.jpg"
-    }
-  ]
+  {
+    "name": "Grocery",
+    "items": [
+      { "id": 1, "name": "Banana", "price": 100.05, "description": "Fresh bananas", "imgUrl": "https://picsum.photos/200?random=1" },
+      { "id": 2, "name": "Apple", "price": 150.00, "description": "Juicy apples", "imgUrl": "https://picsum.photos/200?random=2" },
+      { "id": 3, "name": "Orange", "price": 80.50, "description": "Sweet oranges", "imgUrl": "https://picsum.photos/200?random=3" },
+      { "id": 4, "name": "Strawberry", "price": 120.25, "description": "Red strawberries", "imgUrl": "https://picsum.photos/200?random=4" },
+      { "id": 5, "name": "Grapes", "price": 90.00, "description": "Fresh grapes", "imgUrl": "https://picsum.photos/200?random=5" }
+    ]
+  },
+  {
+    "name": "Electronics",
+    "items": [
+      { "id": 6, "name": "Mobile Phone", "price": 51999, "description": "Latest smartphone", "imgUrl": "https://picsum.photos/200?random=6" },
+      { "id": 7, "name": "Laptop", "price": 79999, "description": "High-performance laptop", "imgUrl": "https://picsum.photos/200?random=7" },
+      { "id": 8, "name": "Headphones", "price": 5000, "description": "Noise-cancelling headphones", "imgUrl": "https://picsum.photos/200?random=8" },
+      { "id": 9, "name": "Smartwatch", "price": 15000, "description": "Feature-rich smartwatch", "imgUrl": "https://picsum.photos/200?random=9" },
+      { "id": 10, "name": "Tablet", "price": 25000, "description": "Portable tablet", "imgUrl": "https://picsum.photos/200?random=10" }
+    ]
+  },
+  {
+    "name": "Vehicle",
+    "items": [
+      { "id": 11, "name": "Car", "price": 1400000, "description": "Luxury car", "imgUrl": "https://picsum.photos/200?random=11" },
+      { "id": 12, "name": "Bike", "price": 150000, "description": "Sport bike", "imgUrl": "https://picsum.photos/200?random=12" },
+      { "id": 13, "name": "Scooter", "price": 80000, "description": "Electric scooter", "imgUrl": "https://picsum.photos/200?random=13" },
+      { "id": 14, "name": "Truck", "price": 3000000, "description": "Heavy-duty truck", "imgUrl": "https://picsum.photos/200?random=14" },
+      { "id": 15, "name": "Bus", "price": 5000000, "description": "City bus", "imgUrl": "https://picsum.photos/200?random=15" }
+    ]
+  },
+  {
+    "name": "Education",
+    "items": [
+      { "id": 16, "name": "Math Book", "price": 200, "description": "Comprehensive math guide", "imgUrl": "https://picsum.photos/200?random=16" },
+      { "id": 17, "name": "Science Book", "price": 250, "description": "Detailed science textbook", "imgUrl": "https://picsum.photos/200?random=17" },
+      { "id": 18, "name": "History Book", "price": 180, "description": "World history overview", "imgUrl": "https://picsum.photos/200?random=18" },
+      { "id": 19, "name": "Language Book", "price": 220, "description": "Learn new languages", "imgUrl": "https://picsum.photos/200?random=19" },
+      { "id": 20, "name": "Art Book", "price": 300, "description": "Explore the world of art", "imgUrl": "https://picsum.photos/200?random=20" }
+    ]
+  }
+]

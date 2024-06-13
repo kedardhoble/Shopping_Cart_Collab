@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.active {
+  display: block !important;
+}
+
 .row {
   display: flex;
 }
@@ -34,4 +38,15 @@
 
 .see-all-btn:hover {
   background-color: #0056b3;
+}
+
+.carousel-indicators{
+  pointer-events: none;
+  z-index: -100 !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  height: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
 }

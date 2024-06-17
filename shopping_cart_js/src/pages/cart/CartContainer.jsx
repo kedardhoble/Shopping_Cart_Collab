@@ -4,7 +4,7 @@ import Cart from './cart.jsx'
 const CartContainer = () => {
   return (
     <div>
-      <Cart />
+        <Cart/>
     </div>
   )
 }

@@ -23,22 +23,30 @@ const Slider = ({ items }) => {
     return acc;
   }, []);
 
+
   return (
     <div className="slider-container">
-      <Carousel controls={false} interval={null}>
-        {rows.map((row, index) => (
-          <Carousel.Item key={index}>
-            <h2>{row[0].category}</h2>
-            <div className="row">
-              {row.map((item) => (
-                <div key={item.id} className="col-md-3">
-                  <ItemCard data={item} showAll={showAll} />
-                </div>
-              ))}
-            </div>
-            {!showAll && <button className="see-all-btn" onClick={toggleShowAll}>See All</button>}
-          </Carousel.Item>
-        ))}
+      <Carousel ride={false} controls={true}>
+      {rows.map((row, index) => {
+
+          return (
+            <Carousel.Item key={index}>
+              <h2>{row[0].category}</h2>
+              <div className="row">
+                {row.map((item) => {
+                  console.log(item)
+                  return(
+                  <div style={{ marginTop: "20px" }} key={item.id} className="col-md-3">
+                    <ItemCard data={item} />
+                  </div>
+                )})}
+              </div>
+              <button className='see-all-btn' onClick={toggleShowAll}>
+                {showAll ? "See Less" : "See More"}
+              </button>
+            </Carousel.Item>
+          );
+        })}
       </Carousel>
     </div>
   );

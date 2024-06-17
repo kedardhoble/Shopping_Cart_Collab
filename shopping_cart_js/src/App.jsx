@@ -1,5 +1,7 @@
 import { Navbar } from "./layout/header/Navbar";
 import ContainerRouter from "./navigation/ContainerRouter";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -11,3 +13,5 @@ function App() {
 }
 
 export default App;
+
+

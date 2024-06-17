@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import  React, { useEffect, useState } from 'react';
 import { Button, Card } from "react-bootstrap";
-import { formatCurrency } from "../../../utility/formatCurrency.jsx";
+import { formatCurrency } from "../../utility/formatCurrency.jsx";
 import { useDispatch, useSelector } from 'react-redux';
-import { addItemToCart, removeItemFromCart } from '../../../redux/slice/cartSlice.js';
+import { addItemToCart, removeItemFromCart } from '../../redux/slice/cartSlice.js';
 
 const ItemCard = ({ data }) => {
     const { id, name, price, imgUrl } = data;

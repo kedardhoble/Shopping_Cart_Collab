@@ -3,13 +3,14 @@ import { Button, Card } from "react-bootstrap";
 import { formatCurrency } from "../../utility/formatCurrency.jsx";
 import { useDispatch, useSelector } from 'react-redux';
 import { addItemToCart, removeItemFromCart } from '../../redux/slice/cartSlice.js';
+import { useNavigate } from 'react-router-dom';
 
 const ItemCard = ({ data }) => {
     const { id, name, price, imgUrl } = data;
     const cartData = useSelector((state) => state.cartData.items);
     const [added, setAdded] = useState(false);
     const dispatch = useDispatch();
-
+    const navigate= useNavigate();
     useEffect(() => {
         // Check if the item is already in the cart
         const isAdded = cartData.some((item) => item.id === id);
@@ -32,6 +33,7 @@ const ItemCard = ({ data }) => {
                 height="200px"
                 alt={imgUrl}
                 style={{ objectFit: "cover" }}
+                onClick={()=>navigate(`/details/${id}`)}
             />
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="d-flex justify-content-space-between align-items-baseline mb-4">

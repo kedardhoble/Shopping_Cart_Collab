@@ -3,43 +3,331 @@
       {
         "name": "Grocery",
         "items": [
-          { "id": 1, "name": "Banana", "price": 100.05, "description": "Fresh bananas", "imgUrl": "https://images.unsplash.com/photo-1593280443077-ae46e0100ad1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJ1aXRzfGVufDB8fDB8fHww" },
-          { "id": 2, "name": "Apple", "price": 150.00, "description": "Juicy apples", "imgUrl": "https://images.unsplash.com/photo-1474564862106-1f23d10b9d72?q=80&w=1791&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-          { "id": 3, "name": "Orange", "price": 80.50, "description": "Sweet oranges", "imgUrl": "https://plus.unsplash.com/premium_photo-1678469638470-e269e9b898b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D" },
-          { "id": 4, "name": "Strawberry", "price": 120.25, "description": "Red strawberries", "imgUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJ1aXRzfGVufDB8fDB8fHww" },
-          { "id": 5, "name": "Grapes", "price": 90.00, "description": "Fresh grapes", "imgUrl": "https://images.unsplash.com/photo-1697403208248-a1757c58f9b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGVzJTIwZnJ1aXR8ZW58MHx8MHx8fDA%3D" }
+          { "id": 1, "quantity":1, "name": "Banana", "price": 100.05, "description": "Fresh bananas", "imgUrl": "https://images.unsplash.com/photo-1593280443077-ae46e0100ad1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJ1aXRzfGVufDB8fDB8fHww" },
+          { "id": 2, "quantity":1, "name": "Apple", "price": 150.00, "description": "Juicy apples", "imgUrl": "https://images.unsplash.com/photo-1474564862106-1f23d10b9d72?q=80&w=1791&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+          { "id": 3, "quantity":1, "name": "Orange", "price": 80.50, "description": "Sweet oranges", "imgUrl": "https://plus.unsplash.com/premium_photo-1678469638470-e269e9b898b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D" },
+          { "id": 4, "quantity":1, "name": "Strawberry", "price": 120.25, "description": "Red strawberries", "imgUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJ1aXRzfGVufDB8fDB8fHww" },
+          { "id": 5, "quantity":1, "name": "Grapes", "price": 90.00, "description": "Fresh grapes", "imgUrl": "https://images.unsplash.com/photo-1697403208248-a1757c58f9b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGVzJTIwZnJ1aXR8ZW58MHx8MHx8fDA%3D" }
         ]
       },
       {
         "name": "Electronics",
         "items": [
-          { "id": 6, "name": "Mobile Phone", "price": 51999, "description": "Latest smartphone", "imgUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" },
-          { "id": 7, "name": "Laptop", "price": 79999, "description": "High-performance laptop", "imgUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8" },
-          { "id": 8, "name": "Headphones", "price": 5000, "description": "Noise-cancelling headphones", "imgUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b" },
-          { "id": 9, "name": "Smartwatch", "price": 15000, "description": "Feature-rich smartwatch", "imgUrl": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" },
-          { "id": 10, "name": "Tablet", "price": 25000, "description": "Portable tablet", "imgUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+          { "id": 6, "quantity":1, "name": "Mobile Phone", "price": 51999, "description": "Latest smartphone", "imgUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" },
+          { "id": 7, "quantity":1, "name": "Laptop", "price": 79999, "description": "High-performance laptop", "imgUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8" },
+          { "id": 8, "quantity":1, "name": "Headphones", "price": 5000, "description": "Noise-cancelling headphones", "imgUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b" },
+          { "id": 9, "quantity":1, "name": "Smartwatch", "price": 15000, "description": "Feature-rich smartwatch", "imgUrl": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" },
+          { "id": 10, "quantity":1, "name": "Tablet", "price": 25000, "description": "Portable tablet", "imgUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
         ]
       },
       {
         "name": "Vehicle",
         "items": [
-          { "id": 11, "name": "Car", "price": 1400000, "description": "Luxury car", "imgUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70" },
-          { "id": 12, "name": "Bike", "price": 150000, "description": "Sport bike", "imgUrl": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-          { "id": 13, "name": "Scooter", "price": 80000, "description": "Electric scooter", "imgUrl": "https://images.unsplash.com/photo-1527484885616-7f73af7fade2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-          { "id": 14, "name": "Truck", "price": 3000000, "description": "Heavy-duty truck", "imgUrl": "https://images.unsplash.com/photo-1616340786004-7c444e530ce3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-          { "id": 15, "name": "Bus", "price": 5000000, "description": "City bus", "imgUrl": "https://images.unsplash.com/photo-1564694202883-46e7448c1b26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2l0eSUyMGJ1c3xlbnwwfHwwfHx8MA%3D%3D" }
+          { "id": 11, "quantity":1, "name": "Car", "price": 1400000, "description": "Luxury car", "imgUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70" },
+          { "id": 12, "quantity":1, "name": "Bike", "price": 150000, "description": "Sport bike", "imgUrl": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+          { "id": 13, "quantity":1, "name": "Scooter", "price": 80000, "description": "Electric scooter", "imgUrl": "https://images.unsplash.com/photo-1527484885616-7f73af7fade2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+          { "id": 14, "quantity":1, "name": "Truck", "price": 3000000, "description": "Heavy-duty truck", "imgUrl": "https://images.unsplash.com/photo-1616340786004-7c444e530ce3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+          { "id": 15, "quantity":1, "name": "Bus", "price": 5000000, "description": "City bus", "imgUrl": "https://images.unsplash.com/photo-1564694202883-46e7448c1b26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2l0eSUyMGJ1c3xlbnwwfHwwfHx8MA%3D%3D" }
         ]
       },
       {
         "name": "Education",
         "items": [
-          { "id": 16, "name": "Text Book", "price": 200, "description": "Comprehensive guide", "imgUrl": "https://images.unsplash.com/photo-1601724161617-928285222d5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
-          { "id": 17, "name": "Notebook", "price": 250, "description": "Note Books", "imgUrl": "https://images.unsplash.com/photo-1501618669935-18b6ecb13d6d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bm90ZWJvb2t8ZW58MHx8MHx8fDA%3D" },
-          { "id": 18, "name": "Pen", "price": 180, "description": "Pen and Pencil", "imgUrl": "https://images.unsplash.com/photo-1585997631913-896180ae8acb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVufGVufDB8fDB8fHww" },
-          { "id": 19, "name": "Adhesives", "price": 220, "description": "Gum and Tape", "imgUrl": "https://images.unsplash.com/photo-1536356915696-c6bf1c01da46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3VtJTIwYW5kJTIwdGFwZXxlbnwwfHwwfHx8MA%3D%3D" },
-          { "id": 20, "name": "Geometry Box", "price": 300, "description": "Geometry Box", "imgUrl": "https://plus.unsplash.com/premium_photo-1672256331058-37f81905d6aa?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
+          { "id": 16, "quantity":1, "name": "Text Book", "price": 200, "description": "Comprehensive guide", "imgUrl": "https://images.unsplash.com/photo-1601724161617-928285222d5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+          { "id": 17, "quantity":1, "name": "Notebook", "price": 250, "description": "Note Books", "imgUrl": "https://media.istockphoto.com/id/149402372/photo/notebook.jpg?s=612x612&w=0&k=20&c=aGoLZSVt9IXBiO_bsJqvP9pjiyVJ7cETmSZm5fKjdUI=" },
+          { "id": 18, "quantity":1, "name": "Pen", "price": 180, "description": "Pen and Pencil", "imgUrl": "https://images.unsplash.com/photo-1585997631913-896180ae8acb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVufGVufDB8fDB8fHww" },
+          { "id": 19, "quantity":1, "name": "Adhesives", "price": 220, "description": "Gum and Tape", "imgUrl": "https://images.unsplash.com/photo-1536356915696-c6bf1c01da46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3VtJTIwYW5kJTIwdGFwZXxlbnwwfHwwfHx8MA%3D%3D" },
+          { "id": 20, "quantity":1, "name": "Geometry Box", "price": 300, "description": "Geometry Box", "imgUrl": "https://plus.unsplash.com/premium_photo-1672256331058-37f81905d6aa?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
         ]
       }
-    ]
-  }
+    ],
+
+   "1": { 
+      "id": 1,
+      "quantity": 1, 
+      "name": "Banana", 
+      "price": 100.05, 
+      "description": "Fresh bananas", 
+      "imgUrl": "https://images.unsplash.com/photo-1593280443077-ae46e0100ad1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJ1aXRzfGVufDB8fDB8fHww",
+      "category": "Grocery",
+      "manufacturer": "Farm Fresh",
+      "expiryDate": "2024-12-31",
+      "weight": "1kg"
+    },
+    "2": { 
+      "id": 2,
+      "quantity": 1, 
+      "name": "Apple", 
+      "price": 150.00, 
+      "description": "Juicy apples", 
+      "imgUrl": "https://images.unsplash.com/photo-1474564862106-1f23d10b9d72?q=80&w=1791&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Grocery",
+      "manufacturer": "Apple Farms",
+      "expiryDate": "2024-11-30",
+      "weight": "1.5kg"
+    },
+    "3": { 
+      "id": 3,
+      "quantity": 1, 
+      "name": "Orange", 
+      "price": 80.50, 
+      "description": "Sweet oranges", 
+      "imgUrl": "https://plus.unsplash.com/premium_photo-1678469638470-e269e9b898b6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Grocery",
+      "manufacturer": "Citrus Co.",
+      "expiryDate": "2024-10-15",
+      "weight": "1.2kg"
+    },
+    "4": { 
+      "id": 4,
+      "quantity": 1, 
+      "name": "Strawberry", 
+      "price": 120.25, 
+      "description": "Red strawberries", 
+      "imgUrl": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnJ1aXRzfGVufDB8fDB8fHww",
+      "category": "Grocery",
+      "manufacturer": "Berry Best",
+      "expiryDate": "2024-09-01",
+      "weight": "500g"
+    },
+    "5": { 
+      "id": 5,
+      "quantity": 1, 
+      "name": "Grapes", 
+      "price": 90.00, 
+      "description": "Fresh grapes", 
+      "imgUrl": "https://images.unsplash.com/photo-1697403208248-a1757c58f9b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JhcGVzJTIwZnJ1aXR8ZW58MHx8MHx8fDA%3D",
+      "category": "Grocery",
+      "manufacturer": "Vine Fresh",
+      "expiryDate": "2024-08-20",
+      "weight": "1kg"
+    },
+    "6": { 
+      "id": 6,
+      "quantity": 1, 
+      "name": "Mobile Phone", 
+      "price": 51999, 
+      "description": "Latest smartphone", 
+      "imgUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "category": "Electronics",
+      "brand": "TechBrand",
+      "model": "X1000",
+      "specs": {
+        "screenSize": "6.5 inches",
+        "batteryLife": "24 hours",
+        "storage": "128GB",
+        "camera": "12MP"
+      }
+    },
+    "7": { 
+      "id": 7,
+      "quantity": 1, 
+      "name": "Laptop", 
+      "price": 79999, 
+      "description": "High-performance laptop", 
+      "imgUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "category": "Electronics",
+      "brand": "CompTech",
+      "model": "ProBook 450",
+      "specs": {
+        "processor": "Intel i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screenSize": "15.6 inches"
+      }
+    },
+    "8": { 
+      "id": 8,
+      "quantity": 1, 
+      "name": "Headphones", 
+      "price": 5000, 
+      "description": "Noise-cancelling headphones", 
+      "imgUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+      "category": "Electronics",
+      "brand": "SoundTech",
+      "model": "QuietComfort 35",
+      "specs": {
+        "batteryLife": "20 hours",
+        "noiseCancelling": "Active"
+      }
+    },
+    "9": { 
+      "id": 9,
+      "quantity": 1, 
+      "name": "Smartwatch", 
+      "price": 15000, 
+      "description": "Feature-rich smartwatch", 
+      "imgUrl": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Electronics",
+      "brand": "WatchPro",
+      "model": "Active 2",
+      "specs": {
+        "screenSize": "1.5 inches",
+        "batteryLife": "48 hours",
+        "features": ["Heart Rate Monitor", "GPS", "Water Resistant"]
+      }
+    },
+    "10": { 
+      "id": 10,
+      "quantity": 1, 
+      "name": "Tablet", 
+      "price": 25000, 
+      "description": "Portable tablet", 
+      "imgUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Electronics",
+      "brand": "TabTech",
+      "model": "Slate 10",
+      "specs": {
+        "screenSize": "10 inches",
+        "batteryLife": "12 hours",
+        "storage": "256GB"
+      }
+    },
+    "11": { 
+      "id": 11,
+      "quantity": 1, 
+      "name": "Car", 
+      "price": 1400000, 
+      "description": "Luxury car", 
+      "imgUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70",
+      "category": "Vehicle",
+      "brand": "LuxMotors",
+      "model": "LX-500",
+      "specs": {
+        "engine": "V8",
+        "horsepower": "450hp",
+        "seats": "5",
+        "color": "Black"
+      }
+    },
+    "12": { 
+      "id": 12,
+      "quantity": 1, 
+      "name": "Bike", 
+      "price": 150000, 
+      "description": "Sport bike", 
+      "imgUrl": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Vehicle",
+      "brand": "Speedster",
+      "model": "Racer 250",
+      "specs": {
+        "engine": "250cc",
+        "horsepower": "30hp",
+        "seats": "2",
+        "color": "Red"
+      }
+    },
+    "13": { 
+      "id": 13,
+      "quantity": 1, 
+      "name": "Scooter", 
+      "price": 80000, 
+      "description": "Electric scooter", 
+      "imgUrl": "https://images.unsplash.com/photo-1527484885616-7f73af7fade2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Vehicle",
+      "brand": "EcoRide",
+      "model": "Eco100",
+      "specs": {
+        "engine": "Electric",
+        "batteryLife": "100km",
+        "seats": "2",
+        "color": "Blue"
+      }
+    },
+    "14": { 
+      "id": 14,
+      "quantity": 1, 
+      "name": "Truck", 
+      "price": 3000000, 
+      "description": "Heavy-duty truck", 
+      "imgUrl": "https://images.unsplash.com/photo-1616340786004-7c444e530ce3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Vehicle",
+      "brand": "HeavyLift",
+      "model": "TruckMaster",
+      "specs": {
+        "engine": "Diesel",
+        "horsepower": "400hp",
+        "capacity": "20 tons",
+        "color": "White"
+      }
+    },
+    "15": { 
+      "id": 15,
+      "quantity": 1, 
+      "name": "Bus", 
+      "price": 5000000, 
+      "description": "City bus", 
+      "imgUrl": "https://images.unsplash.com/photo-1564694202883-46e7448c1b26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2l0eSUyMGJ1c3xlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Vehicle",
+      "brand": "CityMover",
+      "model": "Urban 50",
+      "specs": {
+        "engine": "Diesel",
+        "horsepower": "350hp",
+        "capacity": "50 seats",
+        "color": "Yellow"
+      }
+    },
+    "16": { 
+      "id": 16,
+      "quantity": 1, 
+      "name": "Text Book", 
+      "price": 200, 
+      "description": "Comprehensive guide", 
+      "imgUrl": "https://images.unsplash.com/photo-1601724161617-928285222d5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Education",
+      "publisher": "LearnWell",
+      "author": "John Doe",
+      "pages": 350,
+      "language": "English"
+    },
+    "17": { 
+      "id": 17,
+      "quantity": 1, 
+      "name": "Notebook", 
+      "price": 250, 
+      "description": "Note Books", 
+      "imgUrl": "https://media.istockphoto.com/id/149402372/photo/notebook.jpg?s=612x612&w=0&k=20&c=aGoLZSVt9IXBiO_bsJqvP9pjiyVJ7cETmSZm5fKjdUI=",
+      "category": "Education",
+      "manufacturer": "WriteWell",
+      "pages": 200,
+      "type": "Ruled"
+    },
+    "18": { 
+      "id": 18,
+      "quantity": 1, 
+      "name": "Pen", 
+      "price": 180, 
+      "description": "Pen and Pencil", 
+      "imgUrl": "https://images.unsplash.com/photo-1585997631913-896180ae8acb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVufGVufDB8fDB8fHww",
+      "category": "Education",
+      "brand": "InkFlow",
+      "color": "Black",
+      "type": "Gel"
+    },
+    "19": { 
+      "id": 19,
+      "quantity": 1, 
+      "name": "Adhesives", 
+      "price": 220, 
+      "description": "Gum and Tape", 
+      "imgUrl": "https://images.unsplash.com/photo-1536356915696-c6bf1c01da46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3VtJTIwYW5kJTIwdGFwZXxlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Education",
+      "brand": "StickIt",
+      "type": ["Glue", "Tape"]
+    },
+    "20": { 
+      "id": 20,
+      "quantity": 1, 
+      "name": "Geometry Box", 
+      "price": 300, 
+      "description": "Geometry Box", 
+      "imgUrl": "https://plus.unsplash.com/premium_photo-1672256331058-37f81905d6aa?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category": "Education",
+      "brand": "GeoTools",
+      "contents": ["Compass", "Protractor", "Ruler"]
+    }
+      
+}
+  
   

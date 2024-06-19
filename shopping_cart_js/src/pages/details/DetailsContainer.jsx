@@ -1,5 +1,5 @@
 import React from 'react'
-import Details from './Details'
+import Details from './Details.jsx'
 
 const DetailsContainer = () => {
   return (

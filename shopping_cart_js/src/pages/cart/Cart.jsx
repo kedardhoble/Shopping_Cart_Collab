@@ -1,9 +1,9 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { formatCurrency } from '../../utility/formatCurrency.jsx';
-import { removeItemFromCart, selectCartItems, getCartPrice, selectCartTotalQuantity } from '../../redux/slice/cartSlice.js';
+import { removeItemFromCart, selectCartItems, getCartPrice, selectCartTotalQuantity, increaseItemQuantity, decreaseItemQuantity } from '../../redux/slice/cartSlice.js';
 import './Cart.css';
-import { Button, Container, Row, Col, Card, ListGroup, Image } from 'react-bootstrap';
+import { Button, Container, Row, Col, Card, ListGroup, Image, ButtonGroup } from 'react-bootstrap';
 
 const Cart = () => {
     const cartItems = useSelector(selectCartItems);
@@ -13,6 +13,14 @@ const Cart = () => {
 
     const handleRemoveItem = (id) => {
         dispatch(removeItemFromCart(id));
+      };
+
+    const handleIncreaseQuantity = (id) => {
+        dispatch(increaseItemQuantity(id));
+      };
+
+    const handleDecreaseQuantity = (id) => {
+        dispatch(decreaseItemQuantity(id));
       };
 
   return (
@@ -33,10 +41,20 @@ const Cart = () => {
                     <h5>{item.name}</h5>
                     <p>{item.description}</p>
                   </Col>
-                  <Col md={3}>
+                  <Col md={2}>
                     <h5>{formatCurrency(item.price)}</h5>
                   </Col>
                   <Col md={2}>
+                    <ButtonGroup>
+                      <Button variant="outline-primary" onClick={() => handleDecreaseQuantity(item.id)}>-</Button>
+                      <Button variant="outline-primary" disabled>{item.quantity}</Button>
+                      <Button variant="outline-primary" onClick={() => handleIncreaseQuantity(item.id)}>+</Button>
+                    </ButtonGroup>
+                  </Col>
+                  <Col md={2}>
+                    <h5>{formatCurrency(item.price * item.quantity)}</h5>
+                  </Col>
+                  <Col md={1}>
                     <Button variant="danger" onClick={() => handleRemoveItem(item.id)}>Remove</Button>
                   </Col>
                 </Row>

@@ -1,0 +1,23 @@
+.items-main-container{
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    width: 100%
+}
+
+.items-container{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.items-main-container::-webkit-scrollbar{
+    background-color: rgb(213, 240, 240);
+    /* width: 10px; */
+    height: 10px;
+    border-radius: 10px;
+}
+
+.items-main-container::-webkit-scrollbar-thumb{
+    background-color: rgb(29, 67, 138);
+    border-radius: 10px;
+}

@@ -5,6 +5,8 @@ import StoreContainer from '../pages/store/StoreContainer'
 import CartContainer from '../pages/cart/CartContainer'
 import { Routes, Route } from 'react-router-dom'
 import DetailsContainer from '../pages/details/DetailsContainer'
+import Test from '../pages/test/test'
+import StoreTest from '../pages/storetest/StoreTest'
 const ContainerRouter = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const ContainerRouter = () => {
           <Route path="/about" element={<AboutContainer />} />
           <Route path="/cart" element={<CartContainer />} />
           <Route path="/details/:id" element={<DetailsContainer />} />
+          <Route path="/test" element={<Test/>}/>
+          <Route path="/storetest" element={<StoreTest />} />
         </Routes>
       </div>       
     </div>

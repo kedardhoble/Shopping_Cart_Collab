@@ -16,57 +16,6 @@ const Home = () => {
         </Link>
       </section>
 
-      {/* Featured Categories */}
-      {/* <section className="featured-categories my-5">
-        <h2>Featured Categories</h2>
-        <Row>
-          <Col md={3}>
-            <Card>
-              <Card.Img variant="top" src="https://images.unsplash.com/photo-1526470498-9ae73c665de8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D" />
-              <Card.Body>
-                <Card.Title>Grocery</Card.Title>
-                <Link to="/store">
-                  <Button variant="primary">Shop Now</Button>
-                </Link>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card>
-              <Card.Img variant="top" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVjaHxlbnwwfHwwfHx8MA%3D%3D" />
-              <Card.Body>
-                <Card.Title>Electronics</Card.Title>
-                <Link to="/store">
-                  <Button variant="primary">Shop Now</Button>
-                </Link>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>Vehicles</Card.Title>
-                <Link to="/store">
-                  <Button variant="primary">Shop Now</Button>
-                </Link>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={3}>
-            <Card>
-              <Card.Img variant="top" src="https://via.placeholder.com/150" />
-              <Card.Body>
-                <Card.Title>Education</Card.Title>
-                <Link to="/store">
-                  <Button variant="primary">Shop Now</Button>
-                </Link>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </section> */}
-
       {/* Top Products */}
       <section className="top-products my-5">
         <h2>Top Products</h2>

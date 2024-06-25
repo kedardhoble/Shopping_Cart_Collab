@@ -4,3 +4,24 @@
     padding: 100px 0;
     color: white;
   }
+  
+  .home .featured-categories h2,
+  .home .top-products h2,
+  .home .promotional-offers h2,
+  .home .customer-testimonials h2,
+  .home .newsletter-signup h2 {
+    margin-bottom: 20px;
+  }
+  
+  .home .featured-categories .card,
+  .home .top-products .card,
+  .home .promotional-offers .card,
+  .home .customer-testimonials .card {
+    margin-bottom: 20px;
+  }
+  
+  .home .newsletter-signup form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
